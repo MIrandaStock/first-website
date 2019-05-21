@@ -1,0 +1,135 @@
+/* 内容1的布局 */
+div.inner{
+    padding-top: 30px;
+}
+#content-1{
+    /* float: left; */
+    color: rgb(201, 12, 12);
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+#content-1 #con1-1 img{
+    width: 230px;
+    height: 350px;
+}
+
+#content-1 #con1-2 .nav-list{
+    display: inline;
+    padding: 0 45px;
+}
+#content-1 #con1-3{
+    margin-top: 30px;
+    width: 830px;
+    height: 330px;
+    background: url(../images/kuang.png) no-repeat center;
+    background-size: 800px 250px;
+}
+#content-1 #con1-3 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 90px 100px; 
+    font-size: 20px;
+    line-height: 2;
+    text-indent: 2em;
+}
+/* 一条线 */
+#line .inner{
+    background: url(../images/trees.png) repeat-x;
+    background-size: 250px 190px;
+    height: 190px;
+}
+/* 内容2的布局 */
+#content-2 #con2-1{ 
+    height: 724px;
+    width: 100%;
+}
+#content-2 #con2-1 #littleGirl{
+    width:364px;
+    height: 724px;
+    float: left;
+    background: url(../images/littleGirl.png) no-repeat center;
+    background-size: 364px 724px;
+}
+#content-2 #con2-1 #right-content{
+    float: left;
+}
+#content-2 #con2-1 #right-content #con2-1-1{
+    height: 235px;
+    width: 720px;
+    margin-top: 20px;
+    background-color:rgb(66, 66, 66);
+    padding: 30px 5px;
+    border-radius: 10px;
+}
+#content-2 #con2-1 #right-content a:hover #con2-1-1{
+    border: 3px solid #fff;
+}
+#content-2 #con2-1 #right-content #con2-1-1 #img-1{
+    width: 180px;
+    height: 235px;
+    background: url(../images/background-1.png) no-repeat center;
+    background-size: 180px 235px;
+    float: left;   
+    margin: 0 20px;    
+}
+#content-2 #con2-1 #right-content #con2-1-1 #img-1 ul{
+    float: left;
+    line-height: 2;
+    color: #333;
+    font-size: 12px;
+    font-family: "华文楷体";
+    padding: 25px 40px;;
+}
+
+#content-2 #con2-1 #right-content #con2-1-1 #description-1{
+    width: 450px;
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 2; 
+    text-indent: 2em;
+}
+
+#content-2 #con2-1 #right-content #con2-1-2{
+    padding: 30px 5px;
+    margin-top: 70px;
+    height: 260px;
+    width: 720px;  
+    background-color:rgb(66, 66, 66);
+    border-radius: 10px;
+}
+#content-2 #con2-1 #right-content a:hover #con2-1-2{
+    border: 3px solid #fff;
+}
+#content-2 #con2-1 #right-content #con2-1-2 p{
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 2em;
+    margin-left: 25px;
+}
+#content-2 #con2-1 #right-content #con2-1-2 #img-2{
+    width: 300px;
+    height: 183px;
+    float: right;
+    margin-top: 10px;
+}
+#content-2 #con2-1 #right-content #con2-1-2 #img-2 img{
+    width: 300px;
+    height: 183px;
+    border-radius: 12px;
+}
+
+#content-2 #con2-2{
+    margin: 80px 0;
+    border-radius: 10px;
+    padding: 30px 20px;
+    /*几个数值分别为 x轴的阴影偏移量；y轴的阴影偏移量；模糊度；模糊长度*/
+    box-shadow:inset 0 0 10px 4px rgba(256, 256, 256, 0.5);
+}
+#content-2 #con2-2 p{
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 2em;
+}
+

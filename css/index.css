@@ -1,0 +1,236 @@
+/*初始化*/
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 0;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(173, 12, 12);
+}
+/*全局布局*/
+body {
+  background-color: #333;
+}
+body,
+p {
+  font: 12px/1;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+/*公共类*/
+.wrapper {
+  width: 100%;
+  margin: 0 auto;  
+}
+.wrapper .inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.clear {
+  width: 100%;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+}
+/* 页眉区的布局 */
+header.wrapper{
+    background-color: rgb(173, 12, 12);
+    height: 5px;
+}
+/*导航区布局*/
+nav .inner{
+    padding: 30px 0;
+    height: 80px;
+}
+nav .inner #top #top-left{
+    float: left;
+    line-height: 2;
+}
+
+nav .inner #top #top-left #site-name{
+    font-size: 36px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+}
+
+nav .inner #top #top-right{
+    float: right;
+    color: rgb(201, 12, 12);
+    font-size: 17px;
+    font-weight: normal;
+}
+nav .inner #top #top-right .nav-list{    
+    display: inline;
+    padding: 0 45px;
+}
+nav .inner #top #top-right .nav-list a:hover{
+    color: white;
+}
+
+/* 内容1的布局 */
+#container-1 .inner{
+    border-radius: 20px;
+    height: 300px;
+    background-color: #6b0303;
+}
+
+#container-1 .inner #con1-1{
+    width: 600px;
+    float: left;
+    padding: 50px 0 50px 85px;
+}
+
+#container-1 .inner #con1-1 h2{
+    font-size: 25px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+#container-1 .inner #con1-1 p{
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(232, 235, 238);
+}
+#container-1 .inner #con1-2 img{
+    float: right;
+    /* border: 2px green solid; */
+    width: 256px;
+    height: 256px;
+    border-radius: 10px;
+    margin: 25px 80px 0 0;
+}
+
+/* 内容2的布局 */
+#container-2 .inner .music{
+  margin-top: 40px;
+  width: 300px;
+  height: 225px;
+  float: left;
+  border-radius: 10px;
+  box-shadow:inset 0 0 5px 4px rgba(256, 256, 256, 0.5);
+}
+#container-2 .inner .music .audio{
+  padding: 20px;
+  line-height: 2;
+}
+#container-2 .inner .music .audio p.nameOfSong{
+  font-size: 16px;
+  font-family: "宋体";
+  font-weight: bold;
+  text-align: center;
+}
+#container-2 .inner .music .audio p.introOfSong{
+  margin: 20px 0;
+  font-size: 12px;
+  color: rgb(232, 235, 238);
+}
+#container-2 #con2-2{
+  margin-right:100px;
+  margin-left: 100px;
+}
+#container-2 .myAudio{
+  width: 105px;
+  height: 30px;
+  background-color: #6b0303;
+  float: right;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+#container-2 .listen{
+  float: left;
+  height: 13px;
+  line-height: 13px;
+  margin: 8px 10px;
+  font-size: 14px;
+}
+#container-2 .controls{
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  float: left;
+}
+#container-2 .play-pause {  
+  border: 0;
+  outline: 0;
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  background: none;
+  display: inline-block;
+  
+}
+#container-2 .icon-play {
+  width: 13px;
+  height: 13px;
+  background: url(../images/play.png) no-repeat center;
+  background-size:contain;
+  display: block;
+}
+#container-2 .icon-pause {
+  width: 13px;
+  height: 13px;
+  background: url(../images/pause.png) no-repeat center;
+  background-size:contain;
+  display: block;
+}
+
+/* 一条分界线 */
+#line .inner #boundary{
+  height: 1px;
+  clear: both;
+  margin-top: 60px;
+  box-shadow: 0 1px 1px rgba(256, 256, 256, 0.3) inset,0 -1px 1px rgba(0,0,0,0.9) inset;
+}
+
+/* 内容3的布局 */
+#content-3 #con3-1{ 
+  margin-top:60px;
+  font-size: 25px;
+  height: 30px;
+  line-height: 30px;
+}
+#content-3 #con3-2{
+  margin-top: 30px;
+  height: 205px;
+}
+#content-3 #con3-2 #con3-2-1{
+  width: 205px;
+  float: left;
+}
+#content-3 #con3-2 #con3-2-1 img{
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+#content-3 #con3-2 #con3-2-2{
+  width: 860px;
+  float: left;
+  font-size: 17px;
+  line-height: 26px;
+  margin-left: 20px;  
+}
+#content-3 #con3-2 #con3-2-2 #fisrtparagraph{
+  margin-bottom: 15px;
+}
+
+/* 页脚的布局 */
+footer{
+  clear: both;
+  margin-top: 50px;
+  box-shadow: 0 1px 1px rgba(256, 256, 256, 0.1) inset,0 -1px 1px rgba(0,0,0,0.9) inset;
+  height: 35px;
+  padding-top: 20px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 13px;
+  color: rgb(167, 236, 55);
+}
