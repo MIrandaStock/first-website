@@ -40,10 +40,17 @@ p {
   overflow: hidden;
 }
 /* 页眉区的布局 */
+<<<<<<< HEAD
 header.wrapper {
   width: 100%;
   background-color: rgb(173, 12, 12);
   height: 5px;
+=======
+header.wrapper{
+    width: 100%;
+    background-color: rgb(173, 12, 12);
+    height: 5px;
+>>>>>>> add83e3976f5a0e5a714ac03bfeb9f331b0f2a8b
 }
 /*导航区布局*/
 nav .inner {
