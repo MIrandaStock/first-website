@@ -165,6 +165,7 @@ nav .inner #top #top-right .nav-list a:hover {
   height: 13px;
   background: none;
   display: inline-block;
+  cursor: pointer;
 }
 #container-2 .icon-play {
   width: 13px;
