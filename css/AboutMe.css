@@ -1,165 +1,160 @@
-
 /* 内容1的布局 */
-#contain-1 .inner{
-    height: 250px;
-    padding: 30px 0 ;
+#contain-1 .inner {
+  height: 250px;
+  padding: 30px 0;
 }
-#contain-1 .inner #top-left
-{
-    float: left;
+#contain-1 .inner #top-left {
+  float: left;
 }
-#contain-1 .inner #top-left img{
-    width: 250px;
-    height: 250px;
-    border: 2px white solid;
-    border-radius: 8px;
+#contain-1 .inner #top-left img {
+  width: 250px;
+  height: 250px;
+  border: 2px white solid;
+  border-radius: 8px;
 }
-#contain-1 .inner #top-right{
-    float: right;
+#contain-1 .inner #top-right {
+  float: right;
 }
-#contain-1 .inner #top-right #nav{
-    text-align: right;
-    color: rgb(201, 12, 12);
-    font-size: 17px;
-    font-weight: normal;
+#contain-1 .inner #top-right #nav {
+  text-align: right;
+  color: rgb(201, 12, 12);
+  font-size: 17px;
+  font-weight: normal;
 }
-#contain-1 .inner #top-right #nav .nav-list{
-    display: inline;
-    padding: 0 45px;
+#contain-1 .inner #top-right #nav .nav-list {
+  display: inline;
+  padding: 0 45px;
 }
-#contain-1 .inner #top-right #top-right-1{
-   text-align: right;
-   padding: 30px 0;
+#contain-1 .inner #top-right #top-right-1 {
+  text-align: right;
+  padding: 30px 0;
 }
-#contain-1 .inner #top-right #top-right-1 h2{
-    font-size:40px;
+#contain-1 .inner #top-right #top-right-1 h2 {
+  font-size: 40px;
 }
-#contain-1 .inner #top-right #top-right-1 p{
-    font-size:24px;
-    line-height: 2;
-    opacity: 0.8;
+#contain-1 .inner #top-right #top-right-1 p {
+  font-size: 24px;
+  line-height: 2;
+  opacity: 0.8;
 }
-#contain-1 .inner #top-right #line{
-    height: 1px;
-    width: 750px;
-    background: #ccc;
+#contain-1 .inner #top-right #line {
+  height: 1px;
+  width: 750px;
+  background: #ccc;
 }
-#contain-1 .inner #top-right #top-right-2{
-    text-align: right;
-    padding-top: 40px;
+#contain-1 .inner #top-right #top-right-2 {
+  text-align: right;
+  padding-top: 40px;
 }
-#contain-1 .inner #top-right #top-right-2 p{
-    font-size: 20px;
-}
-/* 内容2的布局 */
-#contain-2 .inner{
-    height: 550px;
-    background: #6b0303  url(../images/decoration-1.png) no-repeat top right;
-    background-size: 120px;
-    border-radius: 10px;
-    margin-bottom: 60px;
+#contain-1 .inner #top-right #top-right-2 p {
+  font-size: 20px;
 }
 
-#contain-2 .inner section{
-    padding: 70px 40px;
+
+/* 内容2的布局 */
+#contain-2 .inner {
+  height: 550px;
+  background: #6b0303 url(../images/decoration-1.png) no-repeat top right;
+  background-size: 120px;
+  border-radius: 10px;
+  margin-bottom: 60px;
 }
-#contain-2 .inner section #con2-1{
-    background-color: #333;
-    height: 70px;
-    width: 160px;
-    border-radius: 8px 8px 0 0;
-    text-align: center;
+
+#contain-2 .inner section {
+  padding: 70px 40px;
 }
-#contain-2 .inner section #con2-1 p{
-    padding-top: 25px;
-    font-size: 28px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#contain-2 .inner section #con2-1 {
+  background-color: #333;
+  height: 70px;
+  width: 160px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
 }
-#contain-2 .inner section #con2-1 img{
-    margin-top: 6px;
-    width: 160px;
-    height: 10px;
+#contain-2 .inner section #con2-1 p {
+  padding-top: 25px;
+  font-size: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-#contain-2 .inner section #con2-2{
-    height: 350px;
-    background: #333;
-    border-radius: 0 8px 8px 8px;    
+#contain-2 .inner section #con2-1 img {
+  margin-top: 6px;
+  width: 160px;
+  height: 10px;
 }
-/* #contain-2 .inner section #con2-2 #decoration{
-    background-image: url(../images/decoration-1.png);
-    background-repeat:no-repeat;
-    background-position:right top;
-} */
-#contain-2 .inner section #con2-2 #con2-2-1{
-    float: left;
-    margin: 30px 20px;
-    width: 450px;
+#contain-2 .inner section #con2-2 {
+  height: 350px;
+  background: #333;
+  border-radius: 0 8px 8px 8px;
 }
-#contain-2 .inner section #con2-2 #con2-2-1 img{
-    width: 10px;
-    height: 100px;
-    border-radius: 5px;
-    margin-right: 10px;
+#contain-2 .inner section #con2-2 #con2-2-1 {
+  float: left;
+  margin: 30px 20px;
+  width: 450px;
 }
-#contain-2 .inner section #con2-2 #con2-2-1 #elementary{
-    color: rgb(201, 12, 12);
-    font-size: 21px;
-    font-weight: bold;
-    font-style: italic;
-    
-    height: 25px;
-    line-height: 25px;
+#contain-2 .inner section #con2-2 #con2-2-1 img {
+  width: 10px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
 }
-#contain-2 .inner section #con2-2 #con2-2-1 #introduce-1{
-    padding-top: 20px;
-    color: rgb(238, 232, 232);
-    font-size: 16px;
-    line-height: 20px;
+#contain-2 .inner section #con2-2 #con2-2-1 #elementary {
+  color: rgb(201, 12, 12);
+  font-size: 21px;
+  font-weight: bold;
+  font-style: italic;
+
+  height: 25px;
+  line-height: 25px;
 }
-#contain-2 .inner section #con2-2 #con2-2-1 #introduce-2{
-    padding-top: 15px;
-    color: rgb(238, 232, 232);
-    font-size: 16px;
-    line-height: 20px;;
+#contain-2 .inner section #con2-2 #con2-2-1 #introduce-1 {
+  padding-top: 20px;
+  color: rgb(238, 232, 232);
+  font-size: 16px;
+  line-height: 20px;
 }
-#contain-2 .inner section #con2-2 #con2-2-2{
-    float: left;
-    margin: 30px 20px;
-    width: 230px;
+#contain-2 .inner section #con2-2 #con2-2-1 #introduce-2 {
+  padding-top: 15px;
+  color: rgb(238, 232, 232);
+  font-size: 16px;
+  line-height: 20px;
 }
-#contain-2 .inner section #con2-2 ul.mylist{
-    margin-top: 14px;
-    color: rgb(238, 232, 232);
-    font-size: 18px;
-    line-height: 22px;
+#contain-2 .inner section #con2-2 #con2-2-2 {
+  float: left;
+  margin: 30px 20px;
+  width: 230px;
 }
-#contain-2 .inner section #con2-2 #con2-2-2 img{
-    margin: 17px 5px;
-    width: 15px;
-    height: 10px;
-    float: left;
+#contain-2 .inner section #con2-2 ul.mylist {
+  margin-top: 14px;
+  color: rgb(238, 232, 232);
+  font-size: 18px;
+  line-height: 22px;
 }
-#contain-2 .inner section #con2-2 h2{
-    font-size:25px;
-    text-indent: 5px;
+#contain-2 .inner section #con2-2 #con2-2-2 img {
+  margin: 17px 5px;
+  width: 15px;
+  height: 10px;
+  float: left;
 }
-#contain-2 .inner section #con2-2 div.content{
-    float: right;
-    width: 200px;
-    height: 55px;
-    margin-top: 10px;
+#contain-2 .inner section #con2-2 h2 {
+  font-size: 25px;
+  text-indent: 5px;
 }
-#contain-2 .inner section #con2-2 #con2-2-3{
-    float: left;
-    margin: 30px 20px;
-    width: 210px;
+#contain-2 .inner section #con2-2 div.content {
+  float: right;
+  width: 200px;
+  height: 55px;
+  margin-top: 10px;
 }
-#contain-2 .inner section #con2-2 #con2-2-3 img{
-    margin: 15px 0 0 5px;
-    width: 20px;
-    height: 20px;
-    float: left;
+#contain-2 .inner section #con2-2 #con2-2-3 {
+  float: left;
+  margin: 30px 20px;
+  width: 210px;
 }
-#contain-2 .inner section #con2-2 #con2-2-3 div.content{
-    width: 175px;
+#contain-2 .inner section #con2-2 #con2-2-3 img {
+  margin: 15px 0 0 5px;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+#contain-2 .inner section #con2-2 #con2-2-3 div.content {
+  width: 175px;
 }

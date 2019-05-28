@@ -1,282 +1,281 @@
 /* 内容1的布局 */
-#content-1 div.inner{
-    padding-top: 30px;
+#content-1 div.inner {
+  padding-top: 30px;
 }
-#content-1 #nav .nav-list{
-    display: inline;
-    padding: 0 45px;
+#content-1 #nav .nav-list {
+  display: inline;
+  padding: 0 45px;
 }
-#content-1 #decoration{
-    float: right;
+#content-1 #decoration {
+  float: right;
 }
-#content-1 #decoration img{
-    width: 200px;
-    height: 200px;
-    margin-right: 30px;
+#content-1 #decoration img {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
 }
-#content-1 #theme{
-    margin-top: 60px;   
-    line-height: 2;
+#content-1 #theme {
+  margin-top: 60px;
+  line-height: 2;
 }
-#content-1 #theme span{
-    font-size: 36px;
-    font-weight: bold;
-    height: 36px;
-    line-height: 36px;  
+#content-1 #theme span {
+  font-size: 36px;
+  font-weight: bold;
+  height: 36px;
+  line-height: 36px;
 }
-
 
 /* 内容2的布局 */
-#content-2 .inner{
-    margin-top: 60px;
-    height: 300px;
+#content-2 .inner {
+  margin-top: 60px;
+  height: 300px;
 }
-#content-2 .inner .module{
-    height: 150px;
-    width: 100%;
-    margin: 0 auto;    
-}
-
-#content-2 .inner .module .facet{
-    width: 33%;
-    height: 150px;
-    float: left; 
-    line-height: 2; 
-    font-family: "Microsoft Yahei";
-}
-#content-2 .inner .module .facet .rhesis{
-    text-indent: 2em;
-    font-size: 13px;
-    padding: 20px 20px 0 20px;    
-}
-#content-2 .inner .module .facet .provenance{
-    text-align: right;
-    font-size: 12px;
-    padding: 0 20px 20px 20px;
-}
-#content-2 .inner .module .wine{
-    background: #6b0303;
-}
-#content-2 .inner .module .white{
-    background: #fff;       
-}
-#content-2 .inner .module .white p{
-    color: #333;
+#content-2 .inner .module {
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
 }
 
+#content-2 .inner .module .facet {
+  width: 33%;
+  height: 150px;
+  float: left;
+  line-height: 2;
+  font-family: "Microsoft Yahei";
+}
+#content-2 .inner .module .facet .rhesis {
+  text-indent: 2em;
+  font-size: 13px;
+  padding: 20px 20px 0 20px;
+}
+#content-2 .inner .module .facet .provenance {
+  text-align: right;
+  font-size: 12px;
+  padding: 0 20px 20px 20px;
+}
+#content-2 .inner .module .wine {
+  background: #6b0303;
+}
+#content-2 .inner .module .white {
+  background: #fff;
+}
+#content-2 .inner .module .white p {
+  color: #333;
+}
 
 /* 内容3的布局 */
-#content-3 .inner{
-    margin-top: 50px;
-    background-color:rgb(66, 66, 66);
+#content-3 .inner {
+  margin-top: 50px;
+  background-color: rgb(66, 66, 66);
 }
-#content-3 #con3-1{
-    padding-top: 40px;
+#content-3 #con3-1 {
+  padding-top: 40px;
 }
-div.line-1{
-    margin-top: 15px;
-    width: 430px;
-    float: left;
-    height: 1px;
-    box-shadow: 0 1px 1px rgba(256, 256, 256, 0.5) inset,0 -1px 1px rgba(0,0,0,0.9) inset;
+div.line-1 {
+  margin-top: 15px;
+  width: 430px;
+  float: left;
+  height: 1px;
+  box-shadow: 0 1px 1px rgba(256, 256, 256, 0.5) inset,
+    0 -1px 1px rgba(0, 0, 0, 0.9) inset;
 }
-div.line-2{
-    float: left;
-    font-size: 26px;
-    width: 240px;
-    text-align: center;
+div.line-2 {
+  float: left;
+  font-size: 26px;
+  width: 240px;
+  text-align: center;
 }
-div.line-3{
-    margin-top: 15px;
-    width: 430px;
-    float: left;
-    height: 1px;
-    box-shadow: 0 1px 1px rgba(256, 256, 256, 0.5) inset,0 -1px 1px rgba(0,0,0,0.9) inset;
+div.line-3 {
+  margin-top: 15px;
+  width: 430px;
+  float: left;
+  height: 1px;
+  box-shadow: 0 1px 1px rgba(256, 256, 256, 0.5) inset,
+    0 -1px 1px rgba(0, 0, 0, 0.9) inset;
 }
-#content-3 #books{
-    margin: 30px auto;
-    height: 400px;
-    width: 100%;
+#content-3 #books {
+  margin: 30px auto;
+  height: 400px;
+  width: 100%;
 }
-#content-3 #books .book{
-    width: 25%;
-    height: 400px;
-    float: left;
-    text-align: center;
+#content-3 #books .book {
+  width: 25%;
+  height: 400px;
+  float: left;
+  text-align: center;
 }
-#content-3 #books .book img{
-    width: auto;
-    height: 300px;
-    margin: 10px 0; 
+#content-3 #books .book img {
+  width: auto;
+  height: 300px;
+  margin: 10px 0;
 }
-#content-3 #books .book p{
-    line-height: 1.5;
-    font-family: "Microsoft Yahei";
-    font-size: 13px;
+#content-3 #books .book p {
+  line-height: 1.5;
+  font-family: "Microsoft Yahei";
+  font-size: 13px;
 }
-
 
 /* 内容4的布局 */
-#content-4 .inner{
-    margin-top: 50px;
-    background-color:rgb(66, 66, 66);
+#content-4 .inner {
+  margin-top: 50px;
+  background-color: rgb(66, 66, 66);
 }
-#content-4 #con4-1{
-    padding-top: 40px;
+#content-4 #con4-1 {
+  padding-top: 40px;
 }
-#content-4 #con4-2{
-    width: 100%;
-    height: 550px;
-    margin: 30px 0;
+#content-4 #con4-2 {
+  width: 100%;
+  height: 550px;
+  margin: 30px 0;
 }
-#content-4 #con4-2 #list-1{
-    float: left;
-    width: 40%;
-    height: 500px;
-    margin-left: 50px;
+#content-4 #con4-2 #list-1 {
+  float: left;
+  width: 40%;
+  height: 500px;
+  margin-left: 50px;
 }
-#content-4 #con4-2 #list-2{
-    float: right;
-    width: 40%;
-    height: 500px;
-    margin-right: 50px;
+#content-4 #con4-2 #list-2 {
+  float: right;
+  width: 40%;
+  height: 500px;
+  margin-right: 50px;
 }
-#content-4 #con4-2 li{    
-    height: 80px;
-    width: 100%;
-    line-height: 2;
-    font-family: "Microsoft Yahei";
+#content-4 #con4-2 li {
+  height: 80px;
+  width: 100%;
+  line-height: 2;
+  font-family: "Microsoft Yahei";
 }
-#content-4 #con4-2 li .fengmian{
-    float: left;
-    width: 60px;
-    height: 60px;
-    margin: 10px;
+#content-4 #con4-2 li .fengmian {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
 }
-#content-4 #con4-2 li .fengmian img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+#content-4 #con4-2 li .fengmian img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
-#content-4 #con4-2 li .info{
-    float: left;
-    width: 200px;
-    height: 60px;    
-    margin: 10px 30px;
-    line-height: 1.6;
+#content-4 #con4-2 li .info {
+  float: left;
+  width: 200px;
+  height: 60px;
+  margin: 10px 30px;
+  line-height: 1.6;
 }
-#content-4 #con4-2 li .info .name{
-    font-size: 16px;
+#content-4 #con4-2 li .info .name {
+  font-size: 16px;
 }
-#content-4 #con4-2 li .info .author{
-    font-size: 12px;
-    color: rgb(204, 200, 200);
+#content-4 #con4-2 li .info .author {
+  font-size: 12px;
+  color: rgb(204, 200, 200);
 }
-#content-4 #con4-2 li .myAudio{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #6b0303;
-    float: left;
-    margin-top: 15px;
+#content-4 #con4-2 li .myAudio {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #6b0303;
+  float: left;
+  margin-top: 15px;
 }
-#content-4 #con4-2 li .myAudio .controls{
-    width: 18px;
-    height: 18px;
-    padding: 0;
-    margin-top: 8px;
-    margin-left: 13px;
+#content-4 #con4-2 li .myAudio .controls {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  margin-top: 8px;
+  margin-left: 13px;
 }
-#content-4 #con4-2 li .myAudio .controls .play-pause{
-    border: 0;
-    outline: 0;
-    padding: 0;
-    width: 18px;
-    height: 18px;
-    background: none;
-    display: inline-block;
-    cursor: pointer;
+#content-4 #con4-2 li .myAudio .controls .play-pause {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  background: none;
+  display: inline-block;
+  cursor: pointer;
 }
-#content-4 #con4-2 li .myAudio .controls .icon-play{
-    width:18px;
-    height: 18px;
-    background: url(../images/play.png) no-repeat;
-    background-size:contain;
-    display: block;
+#content-4 #con4-2 li .myAudio .controls .icon-play {
+  width: 18px;
+  height: 18px;
+  background: url(../images/play.png) no-repeat;
+  background-size: contain;
+  display: block;
 }
-#content-4 #con4-2 li .myAudio .controls .icon-pause{
-    width: 18px;
-    height: 18px;
-    background: url(../images/pause.png) no-repeat;
-    background-size:contain;
-    display: block;
+#content-4 #con4-2 li .myAudio .controls .icon-pause {
+  width: 18px;
+  height: 18px;
+  background: url(../images/pause.png) no-repeat;
+  background-size: contain;
+  display: block;
 }
+
 /* 内容5的布局 */
-#content-5 .inner{
-    margin-top: 50px;
-    background-color:rgb(66, 66, 66);
+#content-5 .inner {
+  margin-top: 50px;
+  background-color: rgb(66, 66, 66);
 }
-#content-5 #con5-1{
-    padding-top: 40px;
+#content-5 #con5-1 {
+  padding-top: 40px;
 }
-#content-5 #con5-2{
-    height: 850px;
-    padding: 40px 100px;
+#content-5 #con5-2 {
+  height: 850px;
+  padding: 40px 100px;
 }
-#content-5 #con5-2 #con5-2-1{
-    font-size: 18px;
-    line-height: 2;
-    font-style: italic;
-    padding: 10px 30px;
+#content-5 #con5-2 #con5-2-1 {
+  font-size: 18px;
+  line-height: 2;
+  font-style: italic;
+  padding: 10px 30px;
 }
-#content-5 #con5-2 #con5-2-2 .part{
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 0;
+#content-5 #con5-2 #con5-2-2 .part {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
 }
-#content-5 #con5-2 #con5-2-2 .question{
-    width: 100%;
-    font-size: 18px;
-    font-weight: normal;
-    margin: 0 auto 30px auto;
-    /* border: 1px solid #6b0303; */
-    border: 1px solid #6b0303;
-    padding: 1px;
+#content-5 #con5-2 #con5-2-2 .question {
+  width: 100%;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 auto 30px auto;
+  border: 1px solid #6b0303;
+  padding: 1px;
 }
-#content-5 #con5-2 #con5-2-2 .question .ques{
-    font-family: verdana;
-    font-size: 12px;
-    font-weight: bold;
-    background-color: #6b0303;
-    text-align: left;
-    padding: 10px 10px;
+#content-5 #con5-2 #con5-2-2 .question .ques {
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #6b0303;
+  text-align: left;
+  padding: 10px 10px;
 }
-#content-5 #con5-2 #con5-2-2 .question .answer{
-    padding: 11px 24px 16px 37px;
-    text-align: left;
-    line-height: 2px;
-    font-size: 14px;
+#content-5 #con5-2 #con5-2-2 .question .answer {
+  padding: 11px 24px 16px 37px;
+  text-align: left;
+  line-height: 2px;
+  font-size: 14px;
 }
-#content-5 #con5-2 #con5-2-2 .question .answer label{
-    display: inline-block;
-    width: 120px;
-    height: 25px;
+#content-5 #con5-2 #con5-2-2 .question .answer label {
+  display: inline-block;
+  width: 120px;
+  height: 25px;
 }
-#content-5 #con5-2 #con5-2-2 .question .answer textarea{
-    resize: none;
+#content-5 #con5-2 #con5-2-2 .question .answer textarea {
+  resize: none;
 }
-#content-5 #con5-2 #con5-2-2 #submit .ques{
-    text-align: center;
+#content-5 #con5-2 #con5-2-2 #submit .ques {
+  text-align: center;
 }
 #content-5 #con5-2 #con5-2-2 #submit button {
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    padding: 0.4em 1em;
-    border: 1px solid #6b0303;
-    border-radius: 6px;
-    background-color: #333;
-    color: #fff;
-    font-weight: bold;
-    line-height: 1.4;
-  }
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.4em 1em;
+  border: 1px solid #6b0303;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.4;
+}
